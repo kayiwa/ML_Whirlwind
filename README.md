@@ -50,7 +50,7 @@ We are going to explore asking the same question of two different models to see 
 
 ### Activity 1b - Other models
 
-Check out [Hugging Face](https://huggingface.co/) to see all of the different models thar are available for you to use. Share any with the class that you find interesting.
+Check out [Hugging Face](https://huggingface.co/) to see all of the different models that are available for you to use. Share any with the class that you find interesting.
 
 
 ### Activity 2 - Does RAG Affect your results
