@@ -1,9 +1,13 @@
-# Machine Learning and You: A Whirlwind Tour
+# Access 2024 Workshop 
 
+## Machine Learning and You: A Whirlwind Tour
 
-Workshop: Machine Learning and You: A Whirlwind Tour
+Location:
+Concordia University’s Webster Library, located at 1400 De Maisonneuve Blvd. W. in downtown Montreal
+ [[link]](https://accessconference.ca/access-2024-hackfest-workshop/)
 
 John Fink (McMaster University)
+
 Tim Ribaric (Brock University)
 
 9:30 AM to 11:30 AM
@@ -16,13 +20,17 @@ Large Language Models have exploded in popularity in the past 2 years prompting 
 
 Due to the fact that working with AI models requires lots and lots of data, we'll be distributing model binaries and test data in class on USB sticks to save bandwidth
 
-[GPT4ALL]() - This will be the client program that we run on your laptop. This will run the different models that we will experiment with.
+[GPT4ALL](https://www.nomic.ai/gpt4all) - This will be the client program that we run on your laptop. This will run the different models that we will experiment with.
 
-[Model 1]() - 
+[Model 1 - Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF) - Super lightweight model
 
 [Model 2]() -
 
-[Data Set](data/) - A collection of reviews about different Spider Man movies ranking at different scores. (Data orginally from [Kaggle](https://www.kaggle.com/datasets/okancan/spiderman-movies-imdb-reviews))
+[Data Set](data/) - A collection of reviews about different Spider Man movies ranking at different scores. (Data orginally from [Kaggle](https://www.kaggle.com/datasets/okancan/spiderman-movies-imdb-reviews)) The data is split up into two files:
+
+- `Spidey_Bad/Spider_Verse_Ranked_1_2_3.txt` - The reviews from the dataset that ranked the movie between 1-3, for a total of about 9000 words
+
+- `Spider_Good/Spider_Verse_Ranked_10.txt` - The review from the dataset that ranked the movie at a perfect 10, for a total of about 10000 words
 
 
 ## Agenda
@@ -31,7 +39,7 @@ Due to the fact that working with AI models requires lots and lots of data, we'l
 
 |||
 |---|----|
-|0930|Welcome & Introductory Discussion|
+|0930|Welcome & Introductory Discussion<br/>[Intro to AI for GLAM](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/) |
 |1000|Multiple Models running locally|
 |1045|Adding Data & Retrieval Augmented Generation|
 |1115|Concluding Discussion and Wrap-up|
@@ -42,11 +50,13 @@ We are going to explore asking the same question of two different models to see 
 
 ### Activity 1b - Other models
 
-Check out Hugging Face to see all of the different models thar are available for you to use. Share any with the class that you find interesting.
+Check out [Hugging Face](https://huggingface.co/) to see all of the different models thar are available for you to use. Share any with the class that you find interesting.
 
 
 ### Activity 2 - Does RAG Affect your results
 
+[[pics]](pics/activity_2)
+
 We will use the _Local Docs_ feature of GPT4All to create a basic Retrieval Augemented Generation system. Once we do that we'll ask our models the same questions about Spider-Man movies to see if the results are different. 
 
-Some [screen caps](jan_spider_verse_example) of a similar experiment
+
