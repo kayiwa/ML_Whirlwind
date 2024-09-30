@@ -59,4 +59,9 @@ Check out [Hugging Face](https://huggingface.co/) to see all of the different mo
 
 We will use the _Local Docs_ feature of GPT4All to create a basic Retrieval Augemented Generation system. Once we do that we'll ask our models the same questions about Spider-Man movies to see if the results are different. 
 
+Dataset #1 - 100 Reviews of _Spiderman: Into the Spiderverse_ that ranked the movie a 10 out of 10. Save all of these files in a directory called `spidey good_reviews`
+[[link]](data/Spidey_Good)
+
+Dataset #2 - 100 Review of _Spiderman: Into the Spiderverse_ that ranked the movie either 1, 2, or 3, out of 10. Save all of these files in a directory called `spidey_bad_reviews`
+[[link]](data/Spidey_Bad)
 
