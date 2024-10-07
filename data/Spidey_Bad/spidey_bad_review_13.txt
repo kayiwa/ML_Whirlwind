@@ -1,1 +1,0 @@
-The animation is so jumpy it looks to be rendered at around 10fps. That kills it right there.
