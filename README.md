@@ -22,9 +22,10 @@ Due to the fact that working with AI models requires lots and lots of data, we'l
 
 [GPT4ALL](https://www.nomic.ai/gpt4all) - This will be the client program that we run on your laptop. This will run the different models that we will experiment with.
 
-[Model 1 - Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF) -  A super lightweight model that only clocks in at 500 MB!
+[Model 1 - Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF) -  A super lightweight model that only clocks in at 450 MB!
 
-[Model 2 Meta-Llama-3-8B-Instruct-Q2_K](https://huggingface.co/bartowski/Meta-Llama-3-8B-Instruct-GGUF) - The smallest version of Meta's Llama model (about 3GB) that will produce good enough results for our experimenting. 
+[Model 2 
+Llama-3.2-1B-Instruct](https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/blob/main/Llama-3.2-1B-Instruct-Q5_K_M.gguf) - The smallest version of Meta's Llama model (about 900 MB) that will produce good enough results for our experimenting. 
 
 [Data Set](data/) - A collection of reviews about different Spider Man movies ranking at different scores. (Data orginally from [Kaggle](https://www.kaggle.com/datasets/okancan/spiderman-movies-imdb-reviews)) The data is split up into two files:
 
