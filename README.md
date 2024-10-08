@@ -53,7 +53,7 @@ To tweak the individual models we are going to adjust some parameters to see wha
 
 - System Prompt
 - Suggested FollowUp Prompt
-- Tempurature
+- Temperature
 
 ### Activity 3 - Two models answering the same thing
 
