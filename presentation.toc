@@ -1,4 +1,0 @@
-\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {3}{Terminology}{4}{0}{2}
-\beamer@sectionintoc {4}{Local Models}{5}{0}{3}
-\beamer@sectionintoc {5}{Data sets we'll use}{6}{0}{4}
