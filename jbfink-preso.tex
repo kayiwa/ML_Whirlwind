@@ -73,7 +73,7 @@
 	\makebox[\linewidth]{\includegraphics[width=\paperwidth,height=\paperheight]{images/leonard}}
 \end{frame}
 
-\begin{frame}[temperature]
+\begin{frame}{temperature}
 	\begin{itemize}
 		\item Is the "entropy" of a model's response
 		\pause
@@ -127,6 +127,18 @@
 
 \begin{frame}
 	And models get even smaller. Good (or at least amusing) results can be had from 1B and 0.5B parameters!
+\end{frame}
+
+\begin{frame}{what is \textit{quantization}}
+	\begin{itemize}
+		\item Consider TIFF files vs jpegs or FLACs vs mp3s
+		\pause
+		\item It's a way to *drastically* reduce compute needs at the expense of some level of fidelity
+		\pause
+		\item Without quantization, you pretty much need big GPUs -- 16GB Nvidias seem to be the base level
+		\pause
+		\item Quantized models \textit{can} use GPUs, and indeed function better if they do, but they don't \textit{need} them
+	\end{itemize}
 \end{frame}
 
 \end{document}
